@@ -6,19 +6,43 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
   <link rel="dns-prefetch" href="http://example.com">
-  <title>dfj;as | Hexo</title>
+  <title>base | Hexo</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta property="og:type" content="article">
-<meta property="og:title" content="dfj;as">
-<meta property="og:url" content="http://example.com/2021/02/14/jinkex/index.html">
+  <meta name="description" content="[TOC] Java部分基础剪贴版 注释 数据类型  字面量字符串值的具体指向意义 转义序列 变量 不确定的量都叫变量   局部变量就是只在局部范围有效的变量 局部变量可分为，形参，方法局部变量，代码快局部变量。 一般来说，局部变量都是在一个方法体之内有效的，出方法体外这个变量就不存在了  比如我的数组  这个数组变量在方法内就是局部变量，数组变量当作成员属性时就是成员变量 这些是什么变量？ 数组">
+<meta property="og:type" content="article">
+<meta property="og:title" content="base">
+<meta property="og:url" content="http://example.com/2021/02/14/base/index.html">
 <meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="[TOC] Java部分基础剪贴版 注释 数据类型  字面量字符串值的具体指向意义 转义序列 变量 不确定的量都叫变量   局部变量就是只在局部范围有效的变量 局部变量可分为，形参，方法局部变量，代码快局部变量。 一般来说，局部变量都是在一个方法体之内有效的，出方法体外这个变量就不存在了  比如我的数组  这个数组变量在方法内就是局部变量，数组变量当作成员属性时就是成员变量 这些是什么变量？ 数组">
 <meta property="og:locale" content="en_US">
-<meta property="og:image" content="http://example.com/2021/02/14/jinkex/image-20210214192302917.png">
-<meta property="article:published_time" content="2021-02-14T08:07:55.000Z">
-<meta property="article:modified_time" content="2021-02-14T11:30:09.787Z">
+<meta property="og:image" content="http://example.com/2021/02/14/base/1.png">
+<meta property="og:image" content="http://example.com/2021/02/14/base/2.png">
+<meta property="og:image" content="http://example.com/2021/02/14/base/3.jpg">
+<meta property="og:image" content="http://example.com/2021/02/14/base/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20210203182324.png">
+<meta property="og:image" content="http://example.com/2021/02/14/base/7.png">
+<meta property="og:image" content="http://example.com/2021/02/14/base/8.png">
+<meta property="og:image" content="http://example.com/2021/02/14/base/9.jpg">
+<meta property="og:image" content="http://example.com/2021/02/14/base/10.png">
+<meta property="og:image" content="http://example.com/2021/02/14/base/11.jpg">
+<meta property="og:image" content="http://example.com/2021/02/14/base/12.png">
+<meta property="og:image" content="http://example.com/2021/02/14/base/13.png">
+<meta property="og:image" content="http://example.com/2021/02/14/base/14.png">
+<meta property="og:image" content="http://example.com/2021/02/14/base/15.png">
+<meta property="og:image" content="http://example.com/2021/02/14/base/16.jpg">
+<meta property="og:image" content="http://example.com/2021/02/14/base/17.png">
+<meta property="og:image" content="http://example.com/2021/02/14/base/18.png">
+<meta property="og:image" content="http://example.com/2021/02/14/base/19.png">
+<meta property="og:image" content="http://example.com/2021/02/14/base/1.png">
+<meta property="og:image" content="http://example.com/2021/02/14/base/2.png">
+<meta property="og:image" content="http://example.com/2021/02/14/base/3.png">
+<meta property="og:image" content="http://example.com/2021/02/14/base/4.png">
+<meta property="og:image" content="http://example.com/2021/02/14/base/5.png">
+<meta property="og:image" content="http://example.com/2021/02/14/base/6.png">
+<meta property="article:published_time" content="2021-02-14T11:55:42.000Z">
+<meta property="article:modified_time" content="2021-02-14T12:06:48.345Z">
 <meta property="article:author" content="John Doe">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="http://example.com/2021/02/14/jinkex/image-20210214192302917.png">
+<meta name="twitter:image" content="http://example.com/2021/02/14/base/1.png">
   
     <link rel="alternative" href="/atom.xml" title="Hexo" type="application/atom+xml">
   
@@ -154,27 +178,58 @@
             <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            <article id="post-jinkex" class="article article-type-post " itemscope itemprop="blogPost">
+            <article id="java-base" class="article article-type-java " itemscope itemprop="blogPost">
   <div class="article-inner">
     
       <header class="article-header">
         
   
     <h1 class="article-title" itemprop="name">
-      dfj;as
+      base
     </h1>
   
 
         
-        <a href="/2021/02/14/jinkex/" class="archive-article-date">
-  	<time datetime="2021-02-14T08:07:55.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2021-02-14</time>
+        <a href="/2021/02/14/base/" class="archive-article-date">
+  	<time datetime="2021-02-14T11:55:42.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2021-02-14</time>
 </a>
         
       </header>
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p><img src="image-20210214192302917.png" alt="image-20210214192302917"></p>
+        <p>[TOC]</p>
+<h1 id="Java部分基础"><a href="#Java部分基础" class="headerlink" title="Java部分基础"></a>Java部分基础</h1><h2 id="剪贴版"><a href="#剪贴版" class="headerlink" title="剪贴版"></a>剪贴版</h2><p><img src=""></p>
+<h2 id="注释"><a href="#注释" class="headerlink" title="注释"></a>注释</h2><p><img src="1.png" alt="注释"></p>
+<h2 id="数据类型"><a href="#数据类型" class="headerlink" title="数据类型"></a>数据类型</h2><p><img src="2.png"></p>
+<p><img src="3.jpg"></p>
+<h2 id="字面量"><a href="#字面量" class="headerlink" title="字面量"></a>字面量<img src="%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20210203182324.png"></h2><h2 id="字符串值的具体指向意义"><a href="#字符串值的具体指向意义" class="headerlink" title="字符串值的具体指向意义"></a>字符串值的具体指向意义</h2><p><img src="7.png"></p>
+<h2 id="转义序列"><a href="#转义序列" class="headerlink" title="转义序列"></a>转义序列<img src="8.png"></h2><p><img src="9.jpg" alt="9"></p>
+<h2 id="变量"><a href="#变量" class="headerlink" title="变量"></a>变量</h2><p> 不确定的量都叫变量</p>
+<p><img src="10.png"></p>
+<p><img src="11.jpg"></p>
+<p>局部变量就是只在局部范围有效的变量 局部变量可分为，形参，方法局部变量，代码快局部变量。 一般来说，局部变量都是在一个方法体之内有效的，出方法体外这个变量就不存在了</p>
+<p><img src="12.png"></p>
+<p>比如我的数组</p>
+<p><img src="13.png"></p>
+<p>这个数组变量在方法内就是局部变量，数组变量当作成员属性时就是成员变量</p>
+<p>这些是什么变量？</p>
+<p>数组定义在方法内就是局部变量 你要用这个数组对象必须要赋值 </p>
+<p>如果定义在方法外就是成员变量，这时他的默认值就是null  因为数组也是个对象，而对象本就可以当作成员变量，所以数组变量是可以当作成员变量</p>
+<p>成员变量使用时</p>
+<p><img src="14.png"></p>
+<p><img src="15.png"></p>
+<h2 id="复杂对象的内存"><a href="#复杂对象的内存" class="headerlink" title="复杂对象的内存"></a>复杂对象的内存</h2><p><img src="16.jpg"></p>
+<p>这里dog  person就是成员变量</p>
+<h2 id="运算符"><a href="#运算符" class="headerlink" title="运算符"></a>运算符</h2><p><img src="17.png"></p>
+<h2 id="and-字符不等于字符数组"><a href="#and-字符不等于字符数组" class="headerlink" title="+=   and  字符不等于字符数组"></a>+=   and  字符不等于字符数组</h2><p><img src="18.png"></p>
+<p><img src="19.png" alt="19"></p>
+<h2 id="循环-and遍历"><a href="#循环-and遍历" class="headerlink" title="循环 and遍历"></a>循环 and遍历</h2><p><img src="1.png"></p>
+<p><img src="2.png" alt="2"></p>
+<p><img src="3.png" alt="3"></p>
+<p><img src="4.png" alt="4"></p>
+<p><img src="5.png" alt="5"></p>
+<p><img src="6.png" alt="6"></p>
 
       
 
@@ -254,7 +309,7 @@
     <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
     <p>扫一扫，分享到微信</p>
     <div class="wx-qrcode">
-      <img src="//pan.baidu.com/share/qrcode?url=http://example.com/2021/02/14/jinkex/" alt="微信分享二维码">
+      <img src="//pan.baidu.com/share/qrcode?url=http://example.com/2021/02/14/base/" alt="微信分享二维码">
     </div>
 </div>
 
@@ -267,15 +322,6 @@
 
   
 <nav id="article-nav">
-  
-    <a href="/2021/02/14/safasasfosafio/" id="article-nav-newer" class="article-nav-link-wrap">
-      <i class="icon-circle-left"></i>
-      <div class="article-nav-title">
-        
-          safasasfosafio
-        
-      </div>
-    </a>
   
   
     <a href="/2021/02/13/hello-world/" id="article-nav-older" class="article-nav-link-wrap">
