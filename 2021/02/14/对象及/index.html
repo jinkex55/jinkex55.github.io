@@ -8,13 +8,48 @@
   <link rel="dns-prefetch" href="http://example.com">
   <title>Hexo</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta property="og:type" content="website">
+  <meta name="description" content="剪贴版 内存对象方法等                this关键字  也就是说 所以我传的这个price会传到亲对象上去，隐藏的this就是这个新对象  只有在构造方法里面才能通过super this调用别的构造方法 调用方法, 你需要在方法中去调用哈, 先自己写一个方法, 在Java的面向对象中, 方法是执行的基本单元  访问控制 重写注意点 Static">
+<meta property="og:type" content="article">
 <meta property="og:title" content="Hexo">
-<meta property="og:url" content="http://example.com/index.html">
+<meta property="og:url" content="http://example.com/2021/02/14/%E5%AF%B9%E8%B1%A1%E5%8F%8A/index.html">
 <meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="剪贴版 内存对象方法等                this关键字  也就是说 所以我传的这个price会传到亲对象上去，隐藏的this就是这个新对象  只有在构造方法里面才能通过super this调用别的构造方法 调用方法, 你需要在方法中去调用哈, 先自己写一个方法, 在Java的面向对象中, 方法是执行的基本单元  访问控制 重写注意点 Static">
 <meta property="og:locale" content="en_US">
+<meta property="og:image" content="http://example.com/2021/02/14/%E5%AF%B9%E8%B1%A1%E5%8F%8A/2.png">
+<meta property="og:image" content="http://example.com/2021/02/14/%E5%AF%B9%E8%B1%A1%E5%8F%8A/clipboard.png">
+<meta property="og:image" content="http://example.com/2021/02/14/%E5%AF%B9%E8%B1%A1%E5%8F%8A/3.png">
+<meta property="og:image" content="http://example.com/2021/02/14/%E5%AF%B9%E8%B1%A1%E5%8F%8A/4.png">
+<meta property="og:image" content="http://example.com/2021/02/14/%E5%AF%B9%E8%B1%A1%E5%8F%8A/5.png">
+<meta property="og:image" content="http://example.com/2021/02/14/%E5%AF%B9%E8%B1%A1%E5%8F%8A/6.png">
+<meta property="og:image" content="http://example.com/2021/02/14/%E5%AF%B9%E8%B1%A1%E5%8F%8A/7.png">
+<meta property="og:image" content="http://example.com/2021/02/14/%E5%AF%B9%E8%B1%A1%E5%8F%8A/8.png">
+<meta property="og:image" content="http://example.com/2021/02/14/%E5%AF%B9%E8%B1%A1%E5%8F%8A/9.png">
+<meta property="og:image" content="http://example.com/2021/02/14/%E5%AF%B9%E8%B1%A1%E5%8F%8A/10.png">
+<meta property="og:image" content="http://example.com/2021/02/14/%E5%AF%B9%E8%B1%A1%E5%8F%8A/11.png">
+<meta property="og:image" content="http://example.com/2021/02/14/%E5%AF%B9%E8%B1%A1%E5%8F%8A/12.png">
+<meta property="og:image" content="http://example.com/2021/02/14/%E5%AF%B9%E8%B1%A1%E5%8F%8A/13.png">
+<meta property="og:image" content="http://example.com/2021/02/14/%E5%AF%B9%E8%B1%A1%E5%8F%8A/14.png">
+<meta property="og:image" content="http://example.com/2021/02/14/%E5%AF%B9%E8%B1%A1%E5%8F%8A/15.png">
+<meta property="og:image" content="http://example.com/2021/02/14/%E5%AF%B9%E8%B1%A1%E5%8F%8A/16.png">
+<meta property="og:image" content="http://example.com/2021/02/14/%E5%AF%B9%E8%B1%A1%E5%8F%8A/17.png">
+<meta property="og:image" content="http://example.com/2021/02/14/%E5%AF%B9%E8%B1%A1%E5%8F%8A/18.png">
+<meta property="og:image" content="http://example.com/2021/02/14/%E5%AF%B9%E8%B1%A1%E5%8F%8A/19.png">
+<meta property="og:image" content="http://example.com/2021/02/14/%E5%AF%B9%E8%B1%A1%E5%8F%8A/21.png">
+<meta property="og:image" content="http://example.com/2021/02/14/%E5%AF%B9%E8%B1%A1%E5%8F%8A/22.png">
+<meta property="og:image" content="http://example.com/2021/02/14/%E5%AF%B9%E8%B1%A1%E5%8F%8A/23.png">
+<meta property="og:image" content="http://example.com/2021/02/14/%E5%AF%B9%E8%B1%A1%E5%8F%8A/25.png">
+<meta property="og:image" content="http://example.com/2021/02/14/%E5%AF%B9%E8%B1%A1%E5%8F%8A/26.png">
+<meta property="og:image" content="http://example.com/2021/02/14/%E5%AF%B9%E8%B1%A1%E5%8F%8A/1.png">
+<meta property="og:image" content="http://example.com/2021/02/14/%E5%AF%B9%E8%B1%A1%E5%8F%8A/2.png">
+<meta property="og:image" content="http://example.com/2021/02/14/%E5%AF%B9%E8%B1%A1%E5%8F%8A/3.png">
+<meta property="og:image" content="http://example.com/2021/02/14/%E5%AF%B9%E8%B1%A1%E5%8F%8A/4.png">
+<meta property="og:image" content="http://example.com/2021/02/14/%E5%AF%B9%E8%B1%A1%E5%8F%8A/5.jpg">
+<meta property="og:image" content="http://example.com/2021/02/14/%E5%AF%B9%E8%B1%A1%E5%8F%8A/6.png">
+<meta property="article:published_time" content="2021-02-14T12:34:21.000Z">
+<meta property="article:modified_time" content="2021-02-14T12:39:40.757Z">
 <meta property="article:author" content="John Doe">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://example.com/2021/02/14/%E5%AF%B9%E8%B1%A1%E5%8F%8A/2.png">
   
     <link rel="alternative" href="/atom.xml" title="Hexo" type="application/atom+xml">
   
@@ -150,169 +185,7 @@
             <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            
-  
-    <article id="post-类" class="article article-type-post  article-index" itemscope itemprop="blogPost">
-  <div class="article-inner">
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2021/02/14/%E7%B1%BB/">类</a>
-    </h1>
-  
-
-        
-        <a href="/2021/02/14/%E7%B1%BB/" class="archive-article-date">
-  	<time datetime="2021-02-14T12:41:34.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2021-02-14</time>
-</a>
-        
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <h1 id="类"><a href="#类" class="headerlink" title="类"></a>类</h1><h2 id="剪贴版"><a href="#剪贴版" class="headerlink" title="剪贴版"></a>剪贴版</h2><h2 id=""><a href="#" class="headerlink" title=""></a><img src=""></h2><h2 id="嵌套类"><a href="#嵌套类" class="headerlink" title="嵌套类"></a>嵌套类</h2><p><img src="1.png"></p>
-<p><img src="2.png" alt="2"></p>
-<p><img src="3.png" alt="3"></p>
-<p><img src="4.png" alt="4"></p>
-<p><img src="5.png" alt="5"></p>
-<p>为什么要放在你里面呢，放在外面我没办法用到你私有仅限的静态成员变量，放到里面就可以用了这是意义所在</p>
-<p><img src="7.png"></p>
-<p>不严谨 </p>
-<p>有外部类的实例就可</p>
-<h2 id="-1"><a href="#-1" class="headerlink" title=""></a><img src="8.png"></h2><p><img src="%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20210203205228.png"></p>
-<p><img src="9.jpg"></p>
-<p>什么情况下会用内部类，比如上面dog只会在person里面用的到，其他类中用不到dog那我们没必要单独在外面写个dog，这样可以让代码更简洁</p>
-<p><img src="10.png"></p>
-
-      
-
-      
-    </div>
-    <div class="article-info article-info-index">
-      
-      
-      
-
-      
-        <p class="article-more-link">
-          <a class="article-more-a" href="/2021/02/14/%E7%B1%BB/">展开全文 >></a>
-        </p>
-      
-
-      
-      <div class="clearfix"></div>
-    </div>
-  </div>
-</article>
-
-<aside class="wrap-side-operation">
-    <div class="mod-side-operation">
-        
-        <div class="jump-container" id="js-jump-container" style="display:none;">
-            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
-                <i class="icon-font icon-back"></i>
-            </a>
-            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
-                <i class="icon-font icon-plane jump-plane"></i>
-            </div>
-        </div>
-        
-        
-    </div>
-</aside>
-
-
-
-
-  
-    <article id="post-数组" class="article article-type-post  article-index" itemscope itemprop="blogPost">
-  <div class="article-inner">
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2021/02/14/%E6%95%B0%E7%BB%84/">数组</a>
-    </h1>
-  
-
-        
-        <a href="/2021/02/14/%E6%95%B0%E7%BB%84/" class="archive-article-date">
-  	<time datetime="2021-02-14T12:35:48.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2021-02-14</time>
-</a>
-        
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <h1 id="数组"><a href="#数组" class="headerlink" title="数组"></a>数组</h1><h2 id="剪贴版"><a href="#剪贴版" class="headerlink" title="剪贴版"></a>剪贴版</h2><h2 id=""><a href="#" class="headerlink" title=""></a><img src=""></h2><h2 id="数组的创建"><a href="#数组的创建" class="headerlink" title="数组的创建"></a>数组的创建</h2><p><img src="1.png"></p>
-<p><img src="2.png" alt="2"></p>
-<p>下面的拿不到数组的索引 </p>
-<h2 id="数组工具类"><a href="#数组工具类" class="headerlink" title="数组工具类"></a>数组工具类</h2><p>Array：</p>
-<p>也即工具类</p>
-<p><em>Java为开发者提供了两个便利的操作数组的类，Array类提供了动态创建和访问数组的方法，Arrays提供了一系列用来操作数组的方法（如排序、查找），另外此类还包含一个允许将数组作为列表来查看的静态工厂</em></p>
-<p>Arrays:</p>
-<p>是数组 的工具类，其中有很多工具方法</p>
-<p><a href="%5Bhttps://blog.csdn.net/abc_12366/article/details/79915619?ops_request_misc=%25257B%252522request%25255Fid%252522%25253A%252522161148058416780255254833%252522%25252C%252522scm%252522%25253A%25252220140713.130102334.pc%25255Fall.%252522%25257D&request_id=161148058416780255254833&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~all~first_rank_v2~rank_v29-3-79915619.pc_search_result_cache&utm_term=java%E4%B8%AD%E7%9A%84array%5D(https://blog.csdn.net/abc_12366/article/details/79915619?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522161148058416780255254833%2522%252C%2522scm%2522%253A%252220140713.130102334.pc%255Fall.%2522%257D&request_id=161148058416780255254833&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~all~first_rank_v2~rank_v29-3-79915619.pc_search_result_cache&utm_term=java%E4%B8%AD%E7%9A%84array)">两个类中的一些变量及方法</a>、</p>
-<p>java数组中的length属性到底属于java中的哪个类</p>
-<p><a href="%5Bhttps://blog.csdn.net/jayzym/article/details/76643527?ops_request_misc=%25257B%252522request%25255Fid%252522%25253A%252522161148231616780255286114%252522%25252C%252522scm%252522%25253A%25252220140713.130102334.pc%25255Fall.%252522%25257D&request_id=161148231616780255286114&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~all~first_rank_v2~rank_v29-5-76643527.pc_search_result_cache&utm_term=%E6%95%B0%E7%BB%84%E7%9A%84%E9%95%BF%E5%BA%A6%E5%B1%9E%E6%80%A7%E5%9C%A8%E5%93%AA%E4%B8%AA%E7%B1%BB%E4%B8%AD%E5%AE%9A%E4%B9%89%E7%9A%84%5D(https://blog.csdn.net/jayzym/article/details/76643527?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522161148231616780255286114%2522%252C%2522scm%2522%253A%252220140713.130102334.pc%255Fall.%2522%257D&request_id=161148231616780255286114&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~all~first_rank_v2~rank_v29-5-76643527.pc_search_result_cache&utm_term=%E6%95%B0%E7%BB%84%E7%9A%84%E9%95%BF%E5%BA%A6%E5%B1%9E%E6%80%A7%E5%9C%A8%E5%93%AA%E4%B8%AA%E7%B1%BB%E4%B8%AD%E5%AE%9A%E4%B9%89%E7%9A%84)">length</a></p>
-<h2 id="数组对象的引用的含义"><a href="#数组对象的引用的含义" class="headerlink" title="数组对象的引用的含义"></a>数组对象的引用的含义</h2><p><img src="3.png"></p>
-<p><img src="4.png" alt="4"></p>
-<p><img src="5.png" alt="5"></p>
-<p><img src="6.png" alt="6"></p>
-<h2 id="数组排序"><a href="#数组排序" class="headerlink" title="数组排序"></a>数组排序</h2><p><img src="7.png"></p>
-<p><img src="8.png" alt="8"></p>
-<p>Integer类中实现了Comparable接口中的comparTo方法， 他默认是从小到大排序的</p>
-<p><img src="9.png"></p>
-<p>如果 我不想他从小到大排，那我调用Integer重载的方法Sort（ 数组，接口Comparator）</p>
-<p><img src="10.png"></p>
-<p><img src="11.png"></p>
-<h2 id="基本类型数组，转为包装类型数组"><a href="#基本类型数组，转为包装类型数组" class="headerlink" title="基本类型数组，转为包装类型数组"></a>基本类型数组，转为包装类型数组</h2><p><img src="12.png"></p>
-
-      
-
-      
-    </div>
-    <div class="article-info article-info-index">
-      
-      
-      
-
-      
-        <p class="article-more-link">
-          <a class="article-more-a" href="/2021/02/14/%E6%95%B0%E7%BB%84/">展开全文 >></a>
-        </p>
-      
-
-      
-      <div class="clearfix"></div>
-    </div>
-  </div>
-</article>
-
-<aside class="wrap-side-operation">
-    <div class="mod-side-operation">
-        
-        <div class="jump-container" id="js-jump-container" style="display:none;">
-            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
-                <i class="icon-font icon-back"></i>
-            </a>
-            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
-                <i class="icon-font icon-plane jump-plane"></i>
-            </div>
-        </div>
-        
-        
-    </div>
-</aside>
-
-
-
-
-  
-    <article id="post-对象及" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+            <article id="post-对象及" class="article article-type-post " itemscope itemprop="blogPost">
   <div class="article-inner">
     
     <div class="article-entry" itemprop="articleBody">
@@ -354,6 +227,27 @@
       
 
       
+        <div class="page-reward">
+          <a href="javascript:;" class="page-reward-btn tooltip-top">
+            <div class="tooltip tooltip-east">
+            <span class="tooltip-item">
+              赏
+            </span>
+            <span class="tooltip-content">
+              <span class="tooltip-text">
+                <span class="tooltip-inner">
+                  <p class="reward-p"><i class="icon icon-quo-left"></i>谢谢你请我吃糖果<i class="icon icon-quo-right"></i></p>
+                  <div class="reward-box">
+                    
+                    
+                  </div>
+                </span>
+              </span>
+            </span>
+          </div>
+          </a>
+        </div>
+      
     </div>
     <div class="article-info article-info-index">
       
@@ -361,16 +255,84 @@
       
 
       
-        <p class="article-more-link">
-          <a class="article-more-a" href="/2021/02/14/%E5%AF%B9%E8%B1%A1%E5%8F%8A/">展开全文 >></a>
-        </p>
-      
 
+      
+        
+<div class="share-btn share-icons tooltip-left">
+  <div class="tooltip tooltip-east">
+    <span class="tooltip-item">
+      <a href="javascript:;" class="share-sns share-outer">
+        <i class="icon icon-share"></i>
+      </a>
+    </span>
+    <span class="tooltip-content">
+      <div class="share-wrap">
+        <div class="share-icons">
+          <a class="weibo share-sns" href="javascript:;" data-type="weibo">
+            <i class="icon icon-weibo"></i>
+          </a>
+          <a class="weixin share-sns wxFab" href="javascript:;" data-type="weixin">
+            <i class="icon icon-weixin"></i>
+          </a>
+          <a class="qq share-sns" href="javascript:;" data-type="qq">
+            <i class="icon icon-qq"></i>
+          </a>
+          <a class="douban share-sns" href="javascript:;" data-type="douban">
+            <i class="icon icon-douban"></i>
+          </a>
+          <a class="qzone share-sns" href="javascript:;" data-type="qzone">
+            <i class="icon icon-qzone"></i>
+          </a>
+          <a class="facebook share-sns" href="javascript:;" data-type="facebook">
+            <i class="icon icon-facebook"></i>
+          </a>
+          <a class="twitter share-sns" href="javascript:;" data-type="twitter">
+            <i class="icon icon-twitter"></i>
+          </a>
+          <a class="google share-sns" href="javascript:;" data-type="google">
+            <i class="icon icon-google"></i>
+          </a>
+        </div>
+      </div>
+    </span>
+  </div>
+</div>
+
+<div class="page-modal wx-share js-wx-box">
+    <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
+    <p>扫一扫，分享到微信</p>
+    <div class="wx-qrcode">
+      <img src="//pan.baidu.com/share/qrcode?url=http://example.com/2021/02/14/%E5%AF%B9%E8%B1%A1%E5%8F%8A/" alt="微信分享二维码">
+    </div>
+</div>
+
+<div class="mask js-mask"></div>
       
       <div class="clearfix"></div>
     </div>
   </div>
 </article>
+
+  
+<nav id="article-nav">
+  
+    <a href="/2021/02/14/%E6%95%B0%E7%BB%84/" id="article-nav-newer" class="article-nav-link-wrap">
+      <i class="icon-circle-left"></i>
+      <div class="article-nav-title">
+        
+          数组
+        
+      </div>
+    </a>
+  
+  
+    <a href="/2021/02/14/base/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">base</div>
+      <i class="icon-circle-right"></i>
+    </a>
+  
+</nav>
+
 
 <aside class="wrap-side-operation">
     <div class="mod-side-operation">
@@ -390,173 +352,14 @@
 
 
 
-
   
-    <article id="java-base" class="article article-type-java  article-index" itemscope itemprop="blogPost">
-  <div class="article-inner">
-    
-      <header class="article-header">
-        
   
-    <h1 itemprop="name">
-      <a class="article-title" href="/2021/02/14/base/">base</a>
-    </h1>
   
 
-        
-        <a href="/2021/02/14/base/" class="archive-article-date">
-  	<time datetime="2021-02-14T11:55:42.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2021-02-14</time>
-</a>
-        
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>[TOC]</p>
-<h1 id="Java部分基础"><a href="#Java部分基础" class="headerlink" title="Java部分基础"></a>Java部分基础</h1><h2 id="剪贴版"><a href="#剪贴版" class="headerlink" title="剪贴版"></a>剪贴版</h2><p><img src=""></p>
-<h2 id="注释"><a href="#注释" class="headerlink" title="注释"></a>注释</h2><p><img src="1.png" alt="注释"></p>
-<h2 id="数据类型"><a href="#数据类型" class="headerlink" title="数据类型"></a>数据类型</h2><p><img src="2.png"></p>
-<p><img src="3.jpg"></p>
-<h2 id="字面量"><a href="#字面量" class="headerlink" title="字面量"></a>字面量<img src="%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20210203182324.png"></h2><h2 id="字符串值的具体指向意义"><a href="#字符串值的具体指向意义" class="headerlink" title="字符串值的具体指向意义"></a>字符串值的具体指向意义</h2><p><img src="7.png"></p>
-<h2 id="转义序列"><a href="#转义序列" class="headerlink" title="转义序列"></a>转义序列<img src="8.png"></h2><p><img src="9.jpg" alt="9"></p>
-<h2 id="变量"><a href="#变量" class="headerlink" title="变量"></a>变量</h2><p> 不确定的量都叫变量</p>
-<p><img src="10.png"></p>
-<p><img src="11.jpg"></p>
-<p>局部变量就是只在局部范围有效的变量 局部变量可分为，形参，方法局部变量，代码快局部变量。 一般来说，局部变量都是在一个方法体之内有效的，出方法体外这个变量就不存在了</p>
-<p><img src="12.png"></p>
-<p>比如我的数组</p>
-<p><img src="13.png"></p>
-<p>这个数组变量在方法内就是局部变量，数组变量当作成员属性时就是成员变量</p>
-<p>这些是什么变量？</p>
-<p>数组定义在方法内就是局部变量 你要用这个数组对象必须要赋值 </p>
-<p>如果定义在方法外就是成员变量，这时他的默认值就是null  因为数组也是个对象，而对象本就可以当作成员变量，所以数组变量是可以当作成员变量</p>
-<p>成员变量使用时</p>
-<p><img src="14.png"></p>
-<p><img src="15.png"></p>
-<h2 id="复杂对象的内存"><a href="#复杂对象的内存" class="headerlink" title="复杂对象的内存"></a>复杂对象的内存</h2><p><img src="16.jpg"></p>
-<p>这里dog  person就是成员变量</p>
-<h2 id="运算符"><a href="#运算符" class="headerlink" title="运算符"></a>运算符</h2><p><img src="17.png"></p>
-<h2 id="and-字符不等于字符数组"><a href="#and-字符不等于字符数组" class="headerlink" title="+=   and  字符不等于字符数组"></a>+=   and  字符不等于字符数组</h2><p><img src="18.png"></p>
-<p><img src="19.png" alt="19"></p>
-<h2 id="循环-and遍历"><a href="#循环-and遍历" class="headerlink" title="循环 and遍历"></a>循环 and遍历</h2><p><img src="1.png"></p>
-<p><img src="2.png" alt="2"></p>
-<p><img src="3.png" alt="3"></p>
-<p><img src="4.png" alt="4"></p>
-<p><img src="5.png" alt="5"></p>
-<p><img src="6.png" alt="6"></p>
-
-      
-
-      
-    </div>
-    <div class="article-info article-info-index">
-      
-      
-      
-
-      
-        <p class="article-more-link">
-          <a class="article-more-a" href="/2021/02/14/base/">展开全文 >></a>
-        </p>
-      
-
-      
-      <div class="clearfix"></div>
-    </div>
-  </div>
-</article>
-
-<aside class="wrap-side-operation">
-    <div class="mod-side-operation">
-        
-        <div class="jump-container" id="js-jump-container" style="display:none;">
-            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
-                <i class="icon-font icon-back"></i>
-            </a>
-            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
-                <i class="icon-font icon-plane jump-plane"></i>
-            </div>
-        </div>
-        
-        
-    </div>
-</aside>
-
-
-
-
-  
-    <article id="post-hello-world" class="article article-type-post  article-index" itemscope itemprop="blogPost">
-  <div class="article-inner">
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2021/02/13/hello-world/">Hello World</a>
-    </h1>
   
 
-        
-        <a href="/2021/02/13/hello-world/" class="archive-article-date">
-  	<time datetime="2021-02-13T14:50:38.246Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2021-02-13</time>
-</a>
-        
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>Welcome to <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a target="_blank" rel="noopener" href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a target="_blank" rel="noopener" href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-
-      
-
-      
-    </div>
-    <div class="article-info article-info-index">
-      
-      
-      
-
-      
-        <p class="article-more-link">
-          <a class="article-more-a" href="/2021/02/13/hello-world/">展开全文 >></a>
-        </p>
-      
-
-      
-      <div class="clearfix"></div>
-    </div>
-  </div>
-</article>
-
-<aside class="wrap-side-operation">
-    <div class="mod-side-operation">
-        
-        <div class="jump-container" id="js-jump-container" style="display:none;">
-            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
-                <i class="icon-font icon-back"></i>
-            </a>
-            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
-                <i class="icon-font icon-plane jump-plane"></i>
-            </div>
-        </div>
-        
-        
-    </div>
-</aside>
-
-
-
-
   
+
   
 
 
@@ -579,8 +382,8 @@
     <script>
 	var yiliaConfig = {
 		mathjax: false,
-		isHome: true,
-		isPost: false,
+		isHome: false,
+		isPost: true,
 		isArchive: false,
 		isTag: false,
 		isCategory: false,
